@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  font-family:'open sans' sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+    padding: 10px 10px;
+
+  }
+  .navlist {
+    display: flex;
+    top: 0;
+    left: 0;
+    gap: 0rem;
+    margin-top: 10px;
+    
+  }
+.icon img{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: auto;
+
+}
+.navlist a{
+margin-right: 20px;
+color: #482217;
+font-weight: 600;
+padding: 10px;
+font-size: 10px;
+transition: all .36s ease
+}  
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color:#555;
+}
+.small-container p{
+  color: red;
+  
+}
+p1{
+  color: black;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img{
+  max-width:10%;
+  padding: 10px 0;
+}
+.btn{
+  display: inline-block;
+  background-color: #ff1f1f;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.color{
+  display: inline-block;
+  background-color: #ff1f1f;
+  color: #e1dfdf;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.color:hover{
+  background-color: #271b1b;
+}
+.btn:hover{
+  background-color: #271b1b;
+}
+.header{
+  background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+  margin-top: 70px;
+}
+.categories{
+  margin: 70px 0;
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform  0.5s;
+ /* background-image: url('71.jpeg');*/
+}
+.col-4 img{
+  width: 100%;
+}
+.title{
+text-align: center;
+margin: 0 auto 80px;
+position: relative;
+line-height: 60px;
+color: black;
+}
+.title span{
+  color: #ff523b;
+}
+.title::after{
+content: '' ;
+background: #ff523b;
+width: 80px;
+height: 5px;
+border-radius: 5px;
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+
+h4{
+color:#555;
+font-weight: normal;
+}
+.col-4 p{
+font-size: 14px;
+}
+.col-4:hover{
+transform: translateX(-5px);
+}
+
+section{
+  padding: 5% 10%;
+}
+.main-home{
+  width: 100%;
+  height: 100vh;
+  background-image: url('73.jpg');
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  color: white;
+}
+.main-text span{
+  color: #000;
+}
+.main-text h1{
+  color: #000000;
+  font-size: 65px;
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 6px 0 10px;
+}
+.main-text p{
+  color: #000000;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.btn{
+  display: inline-block;
+  background: #ff423b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px;
+  transition: background 0.5s;
+}
+.contact{
+  background-color: #555;
+}
+.contact{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  gap: 3rem;
+}
+.first img{
+  width: 140px;
+  height: auto;
+}
+.contact h4{
+  color: #FFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+ 
+}
+
+ .contact-info p{
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all .40s;
+  margin-bottom: 12px;
+}
+.contact p{
+  transition: all.35s;
+}
+.contact p:hover{
+  transform: translateY(-5px);
+  color: #edfff1;
+}
+.end-content{
+  background-color:rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+.end-content p{
+  color: #ffffff;
+  text-transform: capitalize;
+
+}
+.rating{
+  color: yellow;
+}
